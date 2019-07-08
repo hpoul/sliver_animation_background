@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                 ),
                 if (!hide) SizedBox(height: 128),
                 Ink(
-                  color: Color(0xFFF0F5F8),
+                  color: Color(0xFFFF0000),
                   child: ListTile(
                     title: const Text('ListTile with Ink background'),
                   ),
