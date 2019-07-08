@@ -83,7 +83,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                       : SizedBox(height: 128),
                   duration: Duration(milliseconds: 300),
                 ),
-                if (!hide) SizedBox(height: 128),
                 Ink(
                   color: Color(0xFFFF0000),
                   child: ListTile(
